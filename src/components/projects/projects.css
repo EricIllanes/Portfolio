@@ -116,7 +116,12 @@
   cursor: pointer
 }
 
-@media screen and (max-width: 770px) {
+
+  
+@media screen and (max-width: 1280px) {
+  .proyecto-title{
+    font-size: 40px;
+  }
   .project-card {
     width: 250px;
     height: 250px;
@@ -125,4 +130,32 @@
     width: 80px;
   }
 }
-  
+
+@media (max-width: 768px) {
+  .proyecto-title{
+    font-size: 25px;
+   
+  }
+  .project-card {
+    width: 250px;
+    height: 250px;
+  }
+  .link-project{
+    width: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .proyecto-title{
+    font-size: 20px;
+
+  }
+  .project-card {
+    width: 250px;
+    height: 250px;
+  }
+  .link-project{
+    width: 80px;
+  }
+}
+
+
