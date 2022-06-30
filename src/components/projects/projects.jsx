@@ -27,7 +27,7 @@ const Projects = () => {
       description:
         "A simple app that displays the current weather of a city, found through a search bar.",
       image: `${climapp}`,
-      deployed: "",
+      deployed: "https://app-clima-xi.vercel.app/",
       github: "https://github.com/EricIllanes/appClima",
     },
     {
