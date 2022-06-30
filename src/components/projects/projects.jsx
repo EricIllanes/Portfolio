@@ -35,7 +35,7 @@ const Projects = () => {
       description:
         "Personal portfolio made in order to show a little about me, my projects and if you need it, you can contact me.Technologies React, JavaScript.",
       image: `${portfolio}`,
-      deployed: "",
+      deployed: "https://portfolio-ericillanes.vercel.app/",
       github: "https://github.com/EricIllanes/Portfolio",
     },
   ];
