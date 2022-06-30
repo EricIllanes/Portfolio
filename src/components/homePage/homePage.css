@@ -25,23 +25,30 @@
   margin-bottom: 40px;
 }
 
-.circular--portrait {
-  position: relative;
-  width: 350px;
-  height: 350px;
-  overflow: hidden;
-  border-radius: 50%;
+
+.image-circular{
+  width: 433px;
+  display: flex;
+  border-radius: 1000px;
+  /* position: relative; */
+  
 }
 
-.circular--portrait img {
-  width: 100%;
+/* .circular--portrait {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #216072;
+  width: 300px;
   height: auto;
-}
+} */
 
 .name-span {
   font-size: 90px;
   color:  #216072;
   font-family: 'Montserrat', sans-serif;
+
+
 }
 
 .title-span {
@@ -50,6 +57,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 .div-containers{
+  width: 100%;
     display: flex;
     margin: 100px 20px;
     flex-direction: column;
@@ -63,6 +71,39 @@
   margin-right: 20px;
 }
 
-/*
-#216072
-*/
+@media screen and (max-width: 1280px) {
+  .name-span {
+    font-size: 80px;
+  }
+  .title-span {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .name-span {
+    font-size: 50px;
+  }
+  .title-span {
+    font-size: 28px;
+  }
+  .image-circular{
+    width: 250px;
+    height: auto;
+  }
+}
+@media (max-width: 600px){
+  .name-span {
+    font-size: 21px;
+  }
+  .title-span {
+    font-size: 11.6px;
+  }
+  .image-circular{
+    width: 135px;
+    height: auto;
+  }
+  .div-containers{
+    margin: 30px 10px;
+  }
+}

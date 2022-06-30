@@ -15,7 +15,7 @@ export default function HomePage() {
           <span className="title-span">Full Stack Web Developer</span>
         </div>
         <div className="circular--portrait">
-          <img src={imagen} alt="img-home" />
+          <img className="image-circular" src={imagen} alt="img-home" />
         </div>
       </div>
       <div name="projects" className="div-containers">
