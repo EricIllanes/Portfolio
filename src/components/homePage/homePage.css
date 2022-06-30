@@ -1,0 +1,68 @@
+.padre-homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.div-navbar{
+    display: flex;
+    align-self: center;
+    margin-right: 5px;
+    align-content:flex-end;
+    justify-content: flex-end;
+    position: fixed;
+    width: 90%;
+    z-index: 1;
+  }
+.name-img {
+    width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.name-span {
+  font-size: 90px;
+  color:  #216072;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-span {
+  font-size: 50px;
+  color:  #2a0e00;
+  font-family: 'Montserrat', sans-serif;
+}
+.div-containers{
+    display: flex;
+    margin: 100px 20px;
+    flex-direction: column;
+}
+
+.text-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+/*
+#216072
+*/

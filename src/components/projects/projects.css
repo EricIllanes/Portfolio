@@ -1,0 +1,116 @@
+.div-projects {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.proyecto-title {
+  font-size: 45px;
+  color: #1f5362;
+  font-family: "Montserrat", sans-serif;
+}
+.projects-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  margin: 10px 10px;
+}
+
+.project-card {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-direction: column;
+  margin: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #251f1f;
+  align-items: center;
+  background-color: transparent;
+}
+.project-card div {
+  margin-top: 10px;
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  backface-visibility: hidden;
+  transition: 800ms;
+  align-content: center;
+}
+
+.project-card-front {
+  transform: perspective(500px) rotateY(0deg);
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-card-back {
+  transform: perspective(500px) rotateY(180deg);
+  justify-content: center;
+}
+.project-card:hover .project-card-front {
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.project-card:hover .project-card-back {
+  transform: perspective(500px) rotateY(360deg);
+  justify-content: space-around;
+}
+
+.div-name {
+  height: 20%;
+}
+.div-image {
+  height: 40%;
+}
+.div-description {
+  height: 40%;
+}
+.project-card-image {
+  align-content: center;
+}
+
+.image-project {
+  border-radius: 10px;
+  width: 100%;
+  align-self: center;
+}
+
+.name-project {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2a0e00;
+  font-family: "Montserrat", sans-serif;
+}
+
+.description-project {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.span-buttons {
+  width: 100%;
+  position: none;
+  display: flex;
+  flex-direction: row;
+}
+.link-project {
+  width: 100px;
+  text-decoration: none;
+  margin: 10px 10px;
+  color: #2a0e00;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+}
