@@ -36,7 +36,7 @@ const Projects = () => {
         "Personal portfolio made in order to show a little about me, my projects and if you need it, you can contact me.Technologies React, JavaScript.",
       image: `${portfolio}`,
       deployed: "",
-      github: "https://github.com/EricIllanes/EricIllanes.github.io",
+      github: "https://github.com/EricIllanes/Portfolio",
     },
   ];
   return (
