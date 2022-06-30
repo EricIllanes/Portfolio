@@ -108,3 +108,22 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 450px) {
+  .name-span {
+    font-size: 25px;
+  }
+  .title-span {
+    font-size: 14px;
+  }
+  .image-circular {
+    width: 100px;
+    height: auto;
+  }
+  .div-containers {
+    margin: 30px 10px;
+  }
+  .div-navbar{
+    justify-content: center;
+  }
+}
