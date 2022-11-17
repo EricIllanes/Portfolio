@@ -8,6 +8,10 @@ import Contact from "../contact/contact";
 export default function HomePage() {
   return (
     <div name="home" className="padre-homepage">
+<section>
+  <div className="skewed">
+  </div>
+</section>
       <div className="name-img">
         <div className="text-home">
           <span className="name-span">Hello there!</span>

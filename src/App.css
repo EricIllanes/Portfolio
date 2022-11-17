@@ -4,10 +4,7 @@
 .App {
   text-align: center;
   display: flex;
-  /* background-color: #282c34;  */
-  /* background-color:#0b132a; */
   background-color: #a1a1a1;
-  position: relative;
   justify-content: center;
   width: 100%;
 }
