@@ -1,6 +1,6 @@
 import "./projects.css";
 import sportmarket from "../../icons/sportmarket.jpg";
-import pokemonapp from "../../icons/pokemonapp.jpg";
+import pokemonapp from "../../icons/pokemonapp2.jpg";
 import climapp from "../../icons/climapp.jpg";
 import portfolio from "../../icons/portfolio.jpg";
 
