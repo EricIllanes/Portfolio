@@ -3,11 +3,12 @@ import express from "../../icons/express.png";
 import github from "../../icons/github.png";
 import html from "../../icons/html.png";
 import javascript from "../../icons/javascript.png";
-import node from "../../icons/node.png";
+import nodejs from "../../icons/nodejs.png";
 import react from "../../icons/react.png";
 import redux from "../../icons/redux.png";
 import postgresql from "../../icons/postgresql.png";
 import sequelize from "../../icons/sequelize.png";
+import mongodb from "../../icons/mongodb.png";
 import "./skills.css";
 
 const Skills = () => {
@@ -43,13 +44,18 @@ const Skills = () => {
         </div>
 
         <div className="image-text">
-          <img className="image-skill" src={node} alt="css3" />
+          <img className="image-skill" src={nodejs} alt="css3" />
           <span className="text-skill">Node.js</span>
         </div>
 
         <div className="image-text">
           <img className="image-skill" src={postgresql} alt="css3" />
           <span className="text-skill">PostgreSQL</span>
+        </div>
+
+        <div className="image-text">
+          <img className="image-skill" src={mongodb} alt="css3" />
+          <span className="text-skill">MongoDB</span>
         </div>
 
         <div className="image-text">

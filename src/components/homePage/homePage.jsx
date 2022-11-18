@@ -8,12 +8,8 @@ import Contact from "../contact/contact";
 export default function HomePage() {
   return (
     <div name="home" className="padre-homepage">
-      
-      
-          <div className="skewed">
-
-            
-          </div>
+          {/* <div className="skewed">
+          </div> */}
         
         <div className="name-img">
           <div className="text-home">
@@ -31,6 +27,7 @@ export default function HomePage() {
         <Projects />
       </div>
       <div name="skills" className="div-containers">
+  
         <Skills />
       </div>
       <div name="contact" className="div-containers">

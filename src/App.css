@@ -4,8 +4,11 @@
 .App {
   text-align: center;
   display: flex;
-  background-color: #a1a1a1;
+  /* background-color: #a1a1a1; */
+  /* background-color: #d5cccc61; */
+  background-color: #f8f7f3;
   justify-content: center;
   width: 100%;
+  z-index: -2;
 }
 
