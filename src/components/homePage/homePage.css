@@ -29,6 +29,16 @@
   transform: skewY(4deg);
   transform-origin: top right;
 }
+
+.curved {
+  position: relative;
+  background: #2c3e50;
+  height: 50vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  z-index: 3;
+}
+
 .name-img {
   z-index: 1;
   width: 95%;
@@ -72,6 +82,8 @@
   font-family: "Montserrat", sans-serif;
 }
 .div-containers {
+  justify-content: center;
+  height: 100vh;
   width: 100%;
   display: flex;
   margin: 90px 20px;
