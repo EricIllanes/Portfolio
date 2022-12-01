@@ -25,12 +25,13 @@ export default function HomePage() {
 
       <div name="projects" className="div-containers">
         <Projects />
+        <div className="curve"></div>
       </div>
       <div name="skills" className="div-containers">
   
         <Skills />
       </div>
-      <div name="contact" className="div-containers">
+      <div name="contact" className="div-containers-contact">
         <Contact />
       </div>
 
