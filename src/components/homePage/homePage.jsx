@@ -31,7 +31,7 @@ export default function HomePage() {
   
         <Skills />
       </div>
-      <div name="contact" className="div-containers-contact">
+      <div name="contact" className="div-containers">
         <Contact />
       </div>
 
