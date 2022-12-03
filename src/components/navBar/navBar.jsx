@@ -9,13 +9,13 @@ const NavBar = () => {
           <button className="button">Home</button>
         </Link>
         <Link to="projects" smooth={true} duration={500}>
-          <button className="button">Projects</button>
+          <button className="button">Proyectos</button>
         </Link>
         <Link to="skills" smooth={true} duration={500}>
           <button className="button">Skills</button>
         </Link>
         <Link to="contact" smooth={true} duration={500}>
-          <button className="button">Contact</button>
+          <button className="button">Contacto</button>
         </Link>
       </div>
     </div>

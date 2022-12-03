@@ -9,7 +9,7 @@ const Projects = () => {
     {
       name: "Pokémon App",
       description:
-        "Pokémon App is a page where the user can search, order and filter for different types of Pokémon, see their details and create a new Pokémon that is saved in the database.",
+        "Pokémon App es una página donde el usuario podrá buscar, ordenar y filtrar diferentes tipos de Pokémon, ver los detalles y/o crear un nuevo Pokémon que será guardado en la base de datos.",
       image: `${pokemonapp}`,
       deployed: "https://proyecto-pokemon-xi.vercel.app/",
       github: "https://github.com/EricIllanes/Proyecto-Pokemon",
@@ -17,7 +17,7 @@ const Projects = () => {
     {
       name: "E-commerce SportsMarket",
       description:
-        "SportMarket is an e-commerse built from scratch using React, Redux, Node.js, Express and Sequelize. It has authentication with Google, emails services with Nodemailer and payments methods with Stripe.",
+        "SportMarket es una e-commerce construida desde cero usando React, Redux, Node.js, Express y Sequelize. Tiene autenticación con Google, servicio de emails con Nodemailer y métodos de pago con Stripe.",
       image: `${sportmarket}`,
       deployed: "https://sports-market.vercel.app/",
       github: "https://github.com/e-commercePF?tab=repositories",
@@ -25,7 +25,7 @@ const Projects = () => {
     {
       name: "Clima App",
       description:
-        "A simple app that displays the current weather of a city, found through a search bar.",
+        "Una aplicación que muestra el clima actual de una ciudad, la cuál, es encontrada a través de una barra de búsqueda.",
       image: `${climapp}`,
       deployed: "https://app-clima-xi.vercel.app/",
       github: "https://github.com/EricIllanes/appClima",
@@ -33,7 +33,7 @@ const Projects = () => {
     {
       name: "Portfolio",
       description:
-        "Personal portfolio made in order to show a little about me, my projects and if you need it, you can contact me.Technologies React, JavaScript.",
+        "Personal Portfolio personal hecho a modo de mostrar sobre mí, mis proyectos y si lo necesitas, poder contactar conmigo. Hecho con ReactJS.",
       image: `${portfolio}`,
       deployed: "https://portfolio-ericillanes.vercel.app/",
       github: "https://github.com/EricIllanes/Portfolio",
@@ -41,7 +41,7 @@ const Projects = () => {
   ];
   return (
     <div className="div-projects">
-      <span className="proyecto-title">Projects</span>
+      <span className="proyecto-title">Proyectos</span>
       <div className="projects-container">
         {projects.map((project, index) => {
           return (

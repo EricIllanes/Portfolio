@@ -1,20 +1,19 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import { Icon } from '@iconify/react';
 import "./contact.css";
 const Contact = () => {
   const [state, handleSubmit] = useForm("mrgjvjal");
   if (state.succeeded) {
-    return <p>Thanks for your message! I will reply as soon as possible</p>;
+    return <p>Gracias por tu mensaje! Responderé a la brevedad posible.</p>;
   }
   return (
     <div className="div-contact">
-      <span className="contact-title">Contact</span>
+      <span className="contact-title">Contacto</span>
       <div className="div-zone">
         <form onSubmit={handleSubmit}>
           <div className="div-name">
          
-            <input placeholder="Name" className="input" type="text" required />
+            <input placeholder="Nombre" className="input" type="text" required />
             <ValidationError prefix="Name" field="name" errors={state.errors} />
           </div>
 
@@ -38,7 +37,7 @@ const Contact = () => {
           <div className="div-message">
       
             <textarea
-              placeholder="Message"
+              placeholder="Mensaje"
               className="input"
               id="message"
               name="message"
@@ -56,7 +55,7 @@ const Contact = () => {
             type="submit"
             disabled={state.submitting}
           >
-            Send
+            Enviar
           </button>
         </form>
       </div>
