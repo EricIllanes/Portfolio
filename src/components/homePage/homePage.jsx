@@ -4,6 +4,7 @@ import "./homePage.css";
 import Projects from "../projects/projects";
 import Skills from "../skills/skills";
 import Contact from "../contact/contact";
+import { AboutMe } from "../aboutMe/aboutMe";
 
 export default function HomePage() {
   return (
@@ -18,46 +19,20 @@ export default function HomePage() {
           <span className="title-span">Desarrollador Web Full Stack .</span>
         </div>
       </div>
-
-      <div name="projects" className="div-containers">
-        <Projects />
-        <div className="curve"></div>
+      <div name="aboutme" className="div-containers">
+        <AboutMe />
       </div>
-      <div name="skills" className="div-containers">
+
+      {/* <div name="projects" className="div-containers"> */}
+      <div name="projects" className="div-projects">
+        <Projects />
+      </div>
+      {/* <div name="skills" className="div-containers"> */}
+      <div name="skills" className="div-container-skills">
         <Skills />
       </div>
-      <div name="contact" className="div-containers">
+      <div name="contact" className="div-container-contact">
         <Contact />
-      </div>
-
-      <div className="div-footer">
-        <a
-          className="github-icon"
-          href="https://github.com/EricIllanes"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Icon
-            icon="akar-icons:github-fill"
-            color="black"
-            width="40"
-            height="40"
-          />
-        </a>
-
-        <a
-          className="github-icon"
-          href="https://www.linkedin.com/in/ericillanes/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Icon
-            icon="entypo-social:linkedin-with-circle"
-            color="black"
-            width="40"
-            height="40"
-          />
-        </a>
       </div>
     </div>
   );
