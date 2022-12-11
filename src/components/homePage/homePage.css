@@ -212,7 +212,7 @@ background: linear-gradient(10deg, rgba(184,185,185,0) 70%, rgba(218,255,252,0) 
     margin: 30px 10px;
   }
   .div-container-skills{
-    justify-content: center;
+    justify-content: start;
     margin: 30px 10px;
   }
 
