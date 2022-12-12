@@ -3,6 +3,7 @@ import sportmarket from "../../icons/sportmarket.jpg";
 import pokemonapp from "../../icons/pokemonapp2.jpg";
 import climapp from "../../icons/climapp.jpg";
 import portfolio from "../../icons/portfolio.jpg";
+import formProject from "../../icons/formproject.jpg";
 
 const Projects = () => {
   const projects = [
@@ -23,6 +24,14 @@ const Projects = () => {
       github: "https://github.com/e-commercePF?tab=repositories",
     },
     {
+      name: "Proyecto Formulario",
+      description:
+        "Proyecto de formulario controlado, construido para aprender sobre el framework TailwindCSS, se puede conectar a una base de datos para la creación y/o registro de usuarios.",
+      image: `${formProject}`,
+      deployed: "https://form-project-rouge.vercel.app",
+      github: "https://github.com/EricIllanes/formProject",
+    },
+    {
       name: "Clima App",
       description:
         "Una aplicación que muestra el clima actual de una ciudad, la cuál, es encontrada a través de una barra de búsqueda.",
@@ -38,6 +47,7 @@ const Projects = () => {
       deployed: "https://portfolio-ericillanes.vercel.app/",
       github: "https://github.com/EricIllanes/Portfolio",
     },
+    
   ];
   return (
     <div className="div-projects">
