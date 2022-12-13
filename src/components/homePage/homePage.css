@@ -207,17 +207,19 @@ background: linear-gradient(10deg, rgba(184,185,185,0) 70%, rgba(218,255,252,0) 
     margin: 30px 10px;
   }
   .div-projects{
-    height: 150vh;
+    min-height: fit-content;
+    height: 250vh;
     justify-content: start;
-    margin: 30px 10px;
+    margin: 30px 10px 30px 10px;
   }
   .div-container-skills{
     justify-content: start;
-    margin: 30px 10px;
+    margin: 30px 10px 30px 10px;
+    height: 200vh
   }
 
   .div-container-contact{
-    margin: 30px 10px;
+ 
   }
   .div-navbar{
     justify-content: center;

@@ -47,7 +47,6 @@ const Projects = () => {
       deployed: "https://portfolio-ericillanes.vercel.app/",
       github: "https://github.com/EricIllanes/Portfolio",
     },
-    
   ];
   return (
     <div className="div-projects">

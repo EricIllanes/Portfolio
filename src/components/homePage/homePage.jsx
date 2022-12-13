@@ -1,5 +1,4 @@
 import imagen from "../../icons/image.jpg";
-import { Icon } from "@iconify/react";
 import "./homePage.css";
 import Projects from "../projects/projects";
 import Skills from "../skills/skills";
@@ -23,11 +22,10 @@ export default function HomePage() {
         <AboutMe />
       </div>
 
-      {/* <div name="projects" className="div-containers"> */}
       <div name="projects" className="div-projects">
         <Projects />
       </div>
-      {/* <div name="skills" className="div-containers"> */}
+
       <div name="skills" className="div-container-skills">
         <Skills />
       </div>
