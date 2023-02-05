@@ -4,9 +4,18 @@ import pokemonapp from "../../icons/pokemonapp2.jpg";
 import climapp from "../../icons/climapp.jpg";
 import portfolio from "../../icons/portfolio.jpg";
 import formProject from "../../icons/formproject.jpg";
+import todoList from "../../icons/todolist.jpg";	
 
 const Projects = () => {
   const projects = [
+    {
+      name: "To Do List",
+      description:
+        "Proyecto Lista de Tareas, realizado para aprender conceptos de JWT, Cookies y registro de usuarios. Se utilizó la libreria de beautiful-dnd para el drag and drop de las tareas.",
+      image: `${todoList}`,
+      deployed: "https://to-do-list-sortable.vercel.app",
+      github: "https://github.com/EricIllanes/ToDoList-Sortable",
+    },
     {
       name: "Pokémon App",
       description:
@@ -47,6 +56,7 @@ const Projects = () => {
       deployed: "https://portfolio-ericillanes.vercel.app/",
       github: "https://github.com/EricIllanes/Portfolio",
     },
+
   ];
   return (
     <div className="div-projects">
