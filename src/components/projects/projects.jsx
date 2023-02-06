@@ -11,7 +11,7 @@ const Projects = () => {
     {
       name: "To Do List",
       description:
-        "Proyecto Lista de Tareas, realizado para aprender conceptos de JWT, Cookies y registro de usuarios. Se utilizó la libreria de beautiful-dnd para el drag and drop de las tareas.",
+        "Proyecto Lista de Tareas, realizado para aprender conceptos de JWT, Cookies y registro de usuarios. Se utilizó la libreria de beautiful-dnd para el drag and drop de las tareas y estilado con TailwindCSS.",
       image: `${todoList}`,
       deployed: "https://to-do-list-sortable.vercel.app",
       github: "https://github.com/EricIllanes/ToDoList-Sortable",
