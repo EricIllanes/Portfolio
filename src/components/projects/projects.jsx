@@ -65,39 +65,38 @@ const Projects = () => {
         {projects.map((project, index) => {
           return (
             <div className="project-card" key={index}>
-              <div className="project-card-front">
-                <span className="name-project">{project.name}</span>
+            <span className="name-project">{project.name}</span>
                 <img
-                  className="image-project"
-                  src={project.image}
-                  alt={project.name}
-                />
-              </div>
-              <div className="project-card-back">
-                <span className="name-project">{project.name}</span>
-                <span className="description-project">
-                  {project.description}
+                   className="image-project"
+                    src={project.image}
+                    alt={project.name}
+                  />
+ 
+             <div className="card-body">
+                  <span className="name-project">{project.name}</span>
+                  <span className="description-project">
+                    {project.description}
                 </span>
-                <span className="div-buttons">
-                  <button
-                    className="link-project"
-                    onClick={() => {
+                  <span className="div-buttons">
+                    <button
+                     className="link-project"
+                      onClick={() => {
                       window.open(`${project.deployed}`, "_blank");
-                    }}
+                     }}
                   >
-                    Deploy{" "}
-                  </button>
-                  <button
-                    className="link-project"
-                    onClick={() => {
-                      window.open(`${project.github}`, "_blank");
-                    }}
-                  >
-                    Code
-                  </button>
-                </span>
-              </div>
-            </div>
+                      Deploy{" "}
+                    </button>
+                   <button
+                     className="link-project"
+                      onClick={() => {
+                        window.open(`${project.github}`, "_blank");
+                      }}
+                    >
+                     Code
+                    </button>
+                  </span>
+             </div>
+             </div>
           );
         })}
       </div>

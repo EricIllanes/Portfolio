@@ -18,7 +18,7 @@ export const AboutMe = () => {
           <div className="div-footer">
             <a
               className="github-icon"
-              href="https://drive.google.com/file/d/12EYslkGp1-UnEa3iUVidiOQWbOkVo_Ak/view?usp=sharing"
+              href="https://drive.google.com/file/d/1uOfbnXHVLoFMK_BMKlWvhfui4WC5Zq_F/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
