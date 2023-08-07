@@ -1,6 +1,6 @@
 import "./projects.css";
 import sportmarket from "../../icons/sportmarket.jpg";
-import pokemonapp from "../../icons/pokemonapp2.jpg";
+import pokemon from "../../icons/pokemon.jpg";
 import climapp from "../../icons/climapp.jpg";
 import portfolio from "../../icons/portfolio.jpg";
 import formProject from "../../icons/formproject.jpg";
@@ -13,15 +13,15 @@ const Projects = () => {
       description:
         "Proyecto Lista de Tareas, realizado para aprender conceptos de JWT, Cookies y registro de usuarios. Se utilizó la libreria de beautiful-dnd para el drag and drop de las tareas y estilado con TailwindCSS.",
       image: `${todoList}`,
-      deployed: "https://to-do-list-sortable.vercel.app",
+      deployed: "https://to-do-list-sortable-ericillanes.vercel.app",
       github: "https://github.com/EricIllanes/ToDoList-Sortable",
     },
     {
       name: "Pokémon App",
       description:
-        "Pokémon App es una página donde el usuario podrá buscar, ordenar y filtrar diferentes tipos de Pokémon, ver los detalles y/o crear un nuevo Pokémon que será guardado en la base de datos.",
-      image: `${pokemonapp}`,
-      deployed: "https://proyecto-pokemon-xi.vercel.app/",
+        "Pokémon App es una página donde el usuario podrá buscar, ordenar,filtrar y ver los detalles diferentes tipos de Pokémon.",
+      image: `${pokemon}`,
+      deployed: "https://pokemon-ericillanes.vercel.app",
       github: "https://github.com/EricIllanes/Proyecto-Pokemon",
     },
     {
@@ -37,7 +37,7 @@ const Projects = () => {
       description:
         "Proyecto de formulario controlado, construido para aprender sobre el framework TailwindCSS, se puede conectar a una base de datos para la creación y/o registro de usuarios.",
       image: `${formProject}`,
-      deployed: "https://form-project-rouge.vercel.app",
+      deployed: "https://form-project-ericillanes.vercel.app",
       github: "https://github.com/EricIllanes/formProject",
     },
     {
@@ -45,7 +45,7 @@ const Projects = () => {
       description:
         "Una aplicación que muestra el clima actual de una ciudad, la cuál, es encontrada a través de una barra de búsqueda.",
       image: `${climapp}`,
-      deployed: "https://app-clima-xi.vercel.app/",
+      deployed: "https://app-clima-ericillanes.vercel.app",
       github: "https://github.com/EricIllanes/appClima",
     },
     {
