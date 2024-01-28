@@ -4,10 +4,21 @@ import pokemon from "../../icons/pokemon.jpg";
 import climapp from "../../icons/climapp.jpg";
 import portfolio from "../../icons/portfolio.jpg";
 import formProject from "../../icons/formproject.jpg";
-import todoList from "../../icons/todolist.jpg";	
+import todoList from "../../icons/todolist.jpg";
+import notes from "../../icons/project-notes.jpg"
 
 const Projects = () => {
   const projects = [
+    {
+      name: "Notes",
+      description:
+        "Notes permite crear notas, agruparlas por #tags, filtrar y editar notas que te ayudan a mantener ordenado tu día  a día. ReactJS, Redux-toolkit, React-toastify ",
+      image: `${notes}`,
+      deployed: "https://notes-frontend-ten.vercel.app/",
+      
+      github: "https://github.com/EricIllanes/notes-frontend",
+
+    },
     {
       name: "To Do List",
       description:
@@ -47,14 +58,6 @@ const Projects = () => {
       image: `${climapp}`,
       deployed: "https://app-clima-ericillanes.vercel.app",
       github: "https://github.com/EricIllanes/appClima",
-    },
-    {
-      name: "Portfolio",
-      description:
-        "Personal Portfolio personal hecho a modo de mostrar sobre mí, mis proyectos y si lo necesitas, poder contactar conmigo. Hecho con ReactJS.",
-      image: `${portfolio}`,
-      deployed: "https://portfolio-ericillanes.vercel.app/",
-      github: "https://github.com/EricIllanes/Portfolio",
     },
 
   ];
